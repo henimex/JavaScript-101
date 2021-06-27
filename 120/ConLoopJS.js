@@ -37,4 +37,79 @@ document.write( "<br/> <br/>" + "-----------------------------------------------
 document.write( "Switch, Case, Default" + "<br/>")
 document.write( "------------------------------------------------------" + "<br/> <br/>")
 
+var val4 = 61;
+
+switch(val4){
+	case 10:
+	document.write(`${val4} is not enough to continue You have failed`.fontsize(5).fontcolor("red").bold().fixed());
+	break;
+	case 20:
+	document.write(`${val4} is not enough to continue You have failed`.fontsize(5).fontcolor("red").bold().fixed());
+	break;
+	case 30:
+	document.write(`${val4} is not enough to continue You have failed`.fontsize(5).fontcolor("red").bold().fixed());
+	break;
+	case 40:
+	document.write(`${val4} is not enough to continue You have failed`.fontsize(5).fontcolor("red").bold().fixed());
+	break;
+	case 50:
+	document.write(`${val4} is not enough to continue You have failed`.fontsize(5).fontcolor("red").bold().fixed());
+	break;
+	case 60:
+	document.write(`${val4} is enough to continue. Welcome`.fontsize(5).fontcolor("green").bold().fixed());
+	break;
+	case 70:
+	document.write(`${val4} is enough to continue. Welcome`.fontsize(5).fontcolor("green").bold().fixed());
+	break;
+	case 80:
+	document.write(`${val4} is enough to continue. Welcome`.fontsize(5).fontcolor("green").bold().fixed());
+	break;
+	case 90:
+	document.write(`${val4} is enough to continue. Welcome`.fontsize(5).fontcolor("green").bold().fixed());
+	break;
+	case 100:
+	document.write(`${val4} is enough to continue. Welcome`.fontsize(5).fontcolor("green").bold().fixed());
+	break;
+	default:
+	document.write(`${val4} is not in correct format Type 10x of your point`.fontsize(5).fontcolor("blue").bold().fixed());	
+}
+
+//123-Ternary
+
+document.write( "<br/> <br/>" + "------------------------------------------------------" + "<br/>")
+document.write( "Ternary" + "<br/>")
+document.write( "------------------------------------------------------" + "<br/> <br/>")
+
+var val5 = 36;
+var val6 = 26;
+
+var result1 = val5 < val6 ? "First Val is Smaller" : "First Val is Bigger";
+document.write(result1);
+
+//124-Try Catch Finally
+
+document.write( "<br/> <br/>" + "------------------------------------------------------" + "<br/>")
+document.write( "Try Catch Finally" + "<br/>")
+document.write( "------------------------------------------------------" + "<br/> <br/>")
+
+var val7 = 7;
+
+try{
+	document.write("Value A is" + val7 + "<br/>");
+	document.write("Value B is" + val8 + "<br/>");
+}catch(err){
+	document.write("Error Name : " + err.name.fixed().fontcolor("red").big().bold() + "<br/>");
+	document.write("Error Message : " + err.message.fixed().fontcolor("red").big() + "<br/>");
+}finally{
+	document.write("Process Ended.".fixed().fontcolor("green").big().bold() + "<br/>");
+}
+
+
+
+
+
+
+
+
+
 
