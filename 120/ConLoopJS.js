@@ -105,11 +105,11 @@ try{
 }
 
 
-
-
-
-
-
-
-
-
+//
+var val111 = 10;
+while(val111 >= 20){
+	document.write("while icinde");
+	document.write(val111 + "<br/>");
+	val111++;
+	document.write("while sonunda");
+}
