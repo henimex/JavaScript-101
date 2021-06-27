@@ -17,7 +17,7 @@ function calc(x,y){
 	return x+y;
 }
 
-var operation1 = calc(5,6);
+var operation1 = calc(51,16);
 document.write(operation1 + "<br/>");
 
 document.write( "<br/> <br/>" + "------------------------------------------------------" + "<br/>")

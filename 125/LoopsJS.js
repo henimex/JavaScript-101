@@ -47,8 +47,8 @@ for(let data in vals1){
 	document.write(vals1[data] + "<br/>");
 	if(vals1[data]=="Ferhat"){
 		document.write("Hi Boss".italics().small()+ "<br/>");
-		continue;
-		break;
+		continue; //Breaks the line returns to head of code line !!
+		break; //Unreachable
 	}
 	
 }
